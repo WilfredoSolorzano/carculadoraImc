@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:var(--corFundo);
+    margin-bottom: 70px;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 90px; 
+    margin-right: 20px;
+  }
+  
+  .navbar {
+    flex-grow: 1;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menuItem {
+    margin-left: 20px;
+  }
+  
+  .menuItem a {
+    text-decoration: none;
+    color: var(--corSecundaria);
+  }
+  
+  .menuItem a:hover {
+    text-decoration: underline;
+  }

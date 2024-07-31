@@ -1,0 +1,24 @@
+.entrada-dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .entrada-dados label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .entrada-dados input {
+    width: 200px; 
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid var(--corPrincipal);
+    border-radius: 4px;
+    font-size: 1rem;
+  }
